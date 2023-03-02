@@ -128,8 +128,7 @@ button:focus {
         margin-bottom: 10px; } }
   .main_title p {
     font-size: 16px;
-    margin-bottom: 0px;
-    font-style: italic; }
+    margin-bottom: 0px; }
 
 .lite_bg {
   background: #f9f9f9; }
