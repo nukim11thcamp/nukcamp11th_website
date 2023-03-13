@@ -330,6 +330,12 @@ button:focus {
   position: relative;
   background: url(../img/banner/home-banner.jpg) no-repeat center;
   background-size: cover; }
+  @media (max-width: 500px) {
+    .home_banner_area {
+      background: url(../img/banner/banner_media.png) no-repeat center center;
+      background-size: contain;
+    }
+  }
   .home_banner_area .banner_inner {
     position: absolute;
     top: 40%;
@@ -365,7 +371,7 @@ button:focus {
     min-height: 780px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
-      background: url(../img/banner/banner-2.jpg) no-repeat center center;
+      background: url(../img/banner/home-banner.jpg) no-repeat center center;
       opacity: 0.5;
       height: 125%;
       position: absolute;
